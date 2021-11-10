@@ -7,3 +7,10 @@
 	<?php wp_head(); ?>
 </head>
 <body>
+
+	<header id="site-header">
+		<div class="brand">
+			<h1 class="site-title"><?php bloginfo("name"); ?></h1>
+			<p class="site-description"><?php bloginfo("description"); ?></p>
+		</div>
+	</header>
