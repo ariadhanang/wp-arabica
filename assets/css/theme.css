@@ -196,6 +196,24 @@ body {
   display: block;
 }
 
+.posts article.post {
+  margin-bottom: 5em;
+}
+
+.posts article.post h2 {
+  margin-bottom: 0.5em;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.posts article.post h2 a {
+  text-decoration: none;
+}
+
+.posts article.post h2 a:hover {
+  text-decoration: underline;
+}
+
 body {
   background: #F7F5F1;
 }
