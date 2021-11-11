@@ -79,6 +79,7 @@ th {
 
 body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: #24170C;
 }
 
 .container {
@@ -108,7 +109,7 @@ body {
 }
 
 #site-header .brand .site-title a {
-  color: #271f16;
+  color: #39220D;
   text-decoration: none;
 }
 
