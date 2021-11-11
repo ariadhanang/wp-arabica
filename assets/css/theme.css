@@ -276,6 +276,25 @@ body {
   text-align: right;
 }
 
+.single .comments .comment-form {
+  font-size: 0.9em;
+}
+
+.single .comments .comment-form-comment {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.single .comments .comment-form-comment > * {
+  margin-bottom: 1em;
+}
+
 body {
   background: #F7F5F1;
 }
