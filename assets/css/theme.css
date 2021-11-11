@@ -219,9 +219,9 @@ body {
 }
 
 .posts .post .content p, .posts .post .content blockquote, .posts .post .content ul, .posts .post .content ol {
-  margin: 1em 0;
-  font-size: 1.1em;
-  line-height: 1.7;
+  margin: 2em 0;
+  font-size: 1.14em;
+  line-height: 1.8;
   font-family: "Lora", "Georgia", serif;
 }
 
