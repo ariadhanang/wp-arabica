@@ -224,6 +224,8 @@ body {
 
 .posts .post .content blockquote {
   font-family: "Lora", "Georgia", serif;
+  font-size: 1.1em;
+  width: 75%;
 }
 
 body {
