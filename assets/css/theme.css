@@ -159,11 +159,20 @@ body {
   width: 200%;
   padding: 0.5em 0;
   left: -50%;
-  background: #F7F5F1;
+  background: #eee9e1;
 }
 
 #site-header .menu .menu-item .sub-menu a {
+  display: block;
   padding: 0.5em;
+}
+
+#site-header .menu .menu-item .sub-menu a:hover {
+  background: #F7F5F1;
+}
+
+#site-header .menu .menu-item .sub-menu a:active {
+  opacity: 0.6;
 }
 
 #site-header .menu .menu-item:hover .sub-menu {
@@ -171,6 +180,6 @@ body {
 }
 
 body {
-  font-size: 1em;
+  background: #F7F5F1;
 }
 /*# sourceMappingURL=theme.css.map */

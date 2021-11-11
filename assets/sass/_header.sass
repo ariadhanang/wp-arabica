@@ -46,10 +46,15 @@
 				width: 200%
 				padding: 0.5em 0
 				left: -50%
-				background: #F7F5F1
+				background: darken($color-bg, 5%)
 
 				a
+					display: block
 					padding: 0.5em
+					&:hover
+						background: $color-bg
+					&:active
+						opacity: 0.6
 
 			&:hover .sub-menu
 				display: block
