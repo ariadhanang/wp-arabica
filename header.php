@@ -11,7 +11,11 @@
 	<header id="site-header">
 		<div class="brand">
 			<div class="container">
-				<h1 class="site-title"><?php bloginfo("name"); ?></h1>
+				<h1 class="site-title">
+					<a href="<?php get_site_url(); ?>">
+						<?php bloginfo("name"); ?>
+					</a>
+				</h1>
 				<p class="site-description"><?php bloginfo("description"); ?></p>
 			</div>
 		</div>
