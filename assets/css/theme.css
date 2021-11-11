@@ -135,6 +135,10 @@ body {
           justify-content: center;
 }
 
+#site-header .menu .menu-item {
+  position: relative;
+}
+
 #site-header .menu .menu-item a {
   padding: 0.4em 1em;
   color: #39220D;
@@ -147,6 +151,15 @@ body {
 
 #site-header .menu .menu-item a:active {
   opacity: 0.6;
+}
+
+#site-header .menu .menu-item .sub-menu {
+  position: absolute;
+  display: none;
+}
+
+#site-header .menu .menu-item:hover .sub-menu {
+  display: block;
 }
 
 body {

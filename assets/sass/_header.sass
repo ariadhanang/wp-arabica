@@ -29,6 +29,8 @@
 		justify-content: center
 
 		.menu-item
+			position: relative
+
 			a
 				padding: 0.4em 1em
 				color: $text-color-accent
@@ -37,3 +39,10 @@
 					text-decoration: underline
 				&:active
 					opacity: 0.6
+
+			.sub-menu
+				position: absolute
+				display: none
+
+			&:hover .sub-menu
+				display: block
