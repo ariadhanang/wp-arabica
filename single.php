@@ -15,6 +15,14 @@
 			<div class="content">
 				<?php the_content("Read more..."); ?>
 			</div>
+			<div class="related">
+				<?php the_post_navigation(); ?>
+			</div>
+			<?php if ( comments_open() || get_comments_number() ) : ?>
+			<div class="comments">
+				<?php comments_template(); ?>
+			</div>
+			<?php endif; ?>
 		</article>
 	<?php endwhile; ?>
 	</div>
