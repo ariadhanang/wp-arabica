@@ -26,4 +26,3 @@
 		</div>
 	</header>
 	<div id="site-content">
-		<div class="container">

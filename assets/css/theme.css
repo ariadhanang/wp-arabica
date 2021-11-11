@@ -203,6 +203,22 @@ body {
   padding-bottom: 3em;
 }
 
+#page-home .posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#page-home .posts .post {
+  width: 30%;
+  margin-bottom: 0.33vw;
+}
+
 .posts .post {
   margin-bottom: 5em;
 }

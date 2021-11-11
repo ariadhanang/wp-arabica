@@ -1,4 +1,3 @@
-		</div> <!-- .container -->
 	</div> <!-- #site-content -->
 	
 	<footer id="site-footer">
