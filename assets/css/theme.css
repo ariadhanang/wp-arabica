@@ -162,6 +162,17 @@ body {
   padding: 0.5em 0;
   left: -50%;
   background: #eee9e1;
+  border-radius: 4px;
+}
+
+#site-header .menu .menu-item .sub-menu::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 100px 100px 100px;
+  border-color: transparent transparent #6980fe transparent;
 }
 
 #site-header .menu .menu-item .sub-menu a {

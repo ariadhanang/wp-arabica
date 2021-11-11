@@ -49,6 +49,16 @@
 				padding: 0.5em 0
 				left: -50%
 				background: darken($color-bg, 5%)
+				border-radius: 4px
+
+				&::before
+					content: ""
+					display: inline-block
+					width: 0
+					height: 0
+					border-style: solid
+					border-width: 0 100px 100px 100px
+					border-color: transparent transparent #6980fe transparent
 
 				a
 					display: block
