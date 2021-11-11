@@ -272,6 +272,10 @@ body {
   width: 45%;
 }
 
+.single .related .nav-links .nav-next {
+  text-align: right;
+}
+
 body {
   background: #F7F5F1;
 }
