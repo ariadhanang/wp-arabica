@@ -203,9 +203,11 @@ body {
 }
 
 .posts .post h2 {
+  width: 75%;
   margin-bottom: 0.5em;
   font-size: 1.8em;
   font-weight: 600;
+  font-family: "Lora", "Georgia", serif;
 }
 
 .posts .post h2 a {
@@ -220,13 +222,14 @@ body {
 .posts .post .content p, .posts .post .content blockquote, .posts .post .content ul, .posts .post .content ol {
   margin: 1em 0;
   font-size: 1.1em;
-  line-height: 1.58;
+  line-height: 1.7;
 }
 
 .posts .post .content blockquote {
   font-family: "Lora", "Georgia", serif;
   font-size: 1.1em;
-  width: 75%;
+  width: 85%;
+  line-height: 1.58;
 }
 
 body {
