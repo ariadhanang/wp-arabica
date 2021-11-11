@@ -16,10 +16,12 @@
 				<?php the_content("Read more..."); ?>
 			</div>
 			<section class="related">
+				<h3 class="section-title">Related Posts</h3>
 				<?php the_post_navigation(); ?>
 			</section>
 			<?php if ( comments_open() || get_comments_number() ) : ?>
 			<section class="comments">
+				<h3 class="section-title">Comments</h3>
 				<?php comments_template(); ?>
 			</section>
 			<?php endif; ?>
