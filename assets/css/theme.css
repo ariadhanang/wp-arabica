@@ -198,6 +198,11 @@ body {
   display: block;
 }
 
+#site-footer {
+  margin-top: 10em;
+  text-align: center;
+}
+
 .posts .post {
   margin-bottom: 5em;
 }
