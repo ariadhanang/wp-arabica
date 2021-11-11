@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap");
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 html,
 body,
@@ -219,6 +220,10 @@ body {
   margin: 1em 0;
   font-size: 1.1em;
   line-height: 1.58;
+}
+
+.posts .post .content blockquote {
+  font-family: "Lora", "Georgia", serif;
 }
 
 body {
