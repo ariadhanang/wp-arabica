@@ -9,8 +9,8 @@
 <body>
 
 	<header id="site-header">
-		<div class="brand">
-			<div class="container">
+		<div class="container">
+			<div class="brand">
 				<h1 class="site-title">
 					<a href="<?php get_site_url(); ?>">
 						<?php bloginfo("name"); ?>
@@ -18,10 +18,10 @@
 				</h1>
 				<p class="site-description"><?php bloginfo("description"); ?></p>
 			</div>
-		</div>
-		<div class="menu">
-			<div class="container">
-				<?php wp_nav_menu(array('theme_location' => 'header-menu'));?>
+			<div class="menu">
+				<div class="container">
+					<?php wp_nav_menu(array('theme_location' => 'header-menu'));?>
+				</div>
 			</div>
 		</div>
 	</header>
