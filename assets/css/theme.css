@@ -109,7 +109,7 @@ body {
 }
 
 #site-header .brand .site-title a {
-  color: #39220D;
+  color: #41250b;
   text-decoration: none;
 }
 
@@ -143,7 +143,7 @@ body {
 #site-header .menu .menu-item a {
   display: block;
   padding: 1em 1em;
-  color: #39220D;
+  color: #41250b;
   text-decoration: none;
 }
 
@@ -207,6 +207,7 @@ body {
 }
 
 .posts .post h2 a {
+  color: #41250b;
   text-decoration: none;
 }
 
