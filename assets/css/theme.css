@@ -256,7 +256,7 @@ body {
 .single section .section-title {
   font-size: 1.4em;
   font-weight: 600;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .single .related .nav-links {
@@ -266,6 +266,10 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.single .related .nav-links > div {
+  width: 45%;
 }
 
 body {
