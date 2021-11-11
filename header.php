@@ -10,11 +10,16 @@
 
 	<header id="site-header">
 		<div class="brand">
-			<h1 class="site-title"><?php bloginfo("name"); ?></h1>
-			<p class="site-description"><?php bloginfo("description"); ?></p>
+			<div class="container">
+				<h1 class="site-title"><?php bloginfo("name"); ?></h1>
+				<p class="site-description"><?php bloginfo("description"); ?></p>
+			</div>
 		</div>
 		<div class="menu">
-			<?php wp_nav_menu(array('theme_location' => 'header-menu'));?>
+			<div class="container">
+				<?php wp_nav_menu(array('theme_location' => 'header-menu'));?>
+			</div>
 		</div>
 	</header>
 	<div id="site-content">
+		<div class="container">
