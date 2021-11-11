@@ -204,6 +204,7 @@ body {
 }
 
 #page-home .posts {
+  padding: 3em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,7 +217,9 @@ body {
 
 #page-home .posts .post {
   width: 30%;
+  height: 0.33vw;
   margin-bottom: 0.33vw;
+  overflow: hidden;
 }
 
 .posts .post {
