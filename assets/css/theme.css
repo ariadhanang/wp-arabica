@@ -199,8 +199,8 @@ body {
 }
 
 #site-footer {
-  margin-top: 10em;
-  text-align: center;
+  margin-top: 15em;
+  padding-bottom: 5em;
 }
 
 .posts .post {
