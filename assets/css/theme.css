@@ -215,7 +215,8 @@ body {
 }
 
 .posts .post .content p, .posts .post .content blockquote, .posts .post .content ul, .posts .post .content ol {
-  margin: 0.5em 0;
+  margin: 1em 0;
+  font-size: 1.2em;
   line-height: 1.58;
 }
 
