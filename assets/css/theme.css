@@ -156,6 +156,14 @@ body {
 #site-header .menu .menu-item .sub-menu {
   position: absolute;
   display: none;
+  width: 200%;
+  padding: 0.5em 0;
+  left: -50%;
+  background: #F7F5F1;
+}
+
+#site-header .menu .menu-item .sub-menu a {
+  padding: 0.5em;
 }
 
 #site-header .menu .menu-item:hover .sub-menu {
