@@ -223,6 +223,10 @@ body {
   overflow: hidden;
 }
 
+#page-home .posts .post h2 {
+  width: 100%;
+}
+
 .posts .post {
   margin-bottom: 5em;
 }
