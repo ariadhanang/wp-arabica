@@ -10,12 +10,6 @@
 						<?php the_title(); ?>
 					</a>
 				</h2>
-				<div class="thumbnail">
-					<?php the_post_thumbnail(); ?>
-				</div>
-				<div class="content">
-					<?php the_excerpt(); ?>
-				</div>
 			</article>
 		<?php endwhile; ?>
 		</div>
