@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap");
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 html,
 body,
@@ -74,6 +75,10 @@ table {
 td,
 th {
   padding: 0;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 body {
