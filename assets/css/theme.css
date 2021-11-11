@@ -236,6 +236,14 @@ body {
   line-height: 1.58;
 }
 
+.single {
+  font-size: 1.1em;
+}
+
+.single h2 {
+  font-size: 2.4em;
+}
+
 body {
   background: #F7F5F1;
 }
