@@ -127,6 +127,7 @@ body {
 }
 
 #site-header .menu {
+  margin: 1em 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,6 +141,7 @@ body {
 }
 
 #site-header .menu .menu-item a {
+  display: block;
   padding: 0.4em 1em;
   color: #39220D;
   text-decoration: none;
@@ -165,6 +167,7 @@ body {
 #site-header .menu .menu-item .sub-menu a {
   display: block;
   padding: 0.5em;
+  text-decoration: none;
 }
 
 #site-header .menu .menu-item .sub-menu a:hover {
