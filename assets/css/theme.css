@@ -217,9 +217,9 @@ body {
 }
 
 #page-home .posts .post {
-  width: 35vw;
+  width: 40vw;
   height: 12vw;
-  margin: 0 5vw 5vw;
+  margin: 0 2.5vw 5vw;
   overflow: hidden;
 }
 
