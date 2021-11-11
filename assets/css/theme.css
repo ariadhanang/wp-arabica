@@ -213,7 +213,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 #page-home .posts .post {
@@ -236,6 +236,7 @@ body {
 #page-home .posts .post h2 {
   width: 100%;
   font-family: "Merriweather", "Georgia", serif;
+  font-weight: 400;
 }
 
 .posts .post {
