@@ -11,4 +11,4 @@ function register_menus() {
  add_action( 'init', 'register_menus' );
 
 // Stylesheet
- wp_enqueue_style( 'style', get_stylesheet_uri() );
+ wp_enqueue_style('theme', get_template_directory_uri() . '/assets/css/theme.css');
