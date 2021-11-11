@@ -12,7 +12,7 @@
 			<div class="thumbnail">
 				<?php the_post_thumbnail(); ?>
 			</div>
-			<div class="excerpt">
+			<div class="content">
 				<?php the_content(); ?>
 			</div>
 		</article>

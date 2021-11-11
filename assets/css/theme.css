@@ -214,6 +214,11 @@ body {
   text-decoration: underline;
 }
 
+.posts .post .content p, .posts .post .content blockquote, .posts .post .content ul, .posts .post .content ol {
+  margin: 0.5em 0;
+  line-height: 1.58;
+}
+
 body {
   background: #F7F5F1;
 }
