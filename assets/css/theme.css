@@ -224,8 +224,6 @@ body {
   height: 12vw;
   margin: 0 2.5vw 5vw;
   overflow: hidden;
-  background: #fff;
-  border-radius: 20px;
 }
 
 #page-home .posts .post h2 {
