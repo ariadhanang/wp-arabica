@@ -166,8 +166,8 @@ body {
   background: #fff;
   border-radius: 4px;
   z-index: 9000;
-  -webkit-box-shadow: 0 3px 6px #00000022;
-          box-shadow: 0 3px 6px #00000022;
+  -webkit-box-shadow: 0 6px 6px #00000011;
+          box-shadow: 0 6px 6px #00000011;
 }
 
 #site-header .menu .menu-item .sub-menu::before {
@@ -180,7 +180,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 0 0.4em 0.4em 0.4em;
-  border-color: transparent transparent #eee9e1 transparent;
+  border-color: transparent transparent #fff transparent;
 }
 
 #site-header .menu .menu-item .sub-menu a {
