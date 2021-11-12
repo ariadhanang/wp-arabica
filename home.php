@@ -19,7 +19,7 @@
 				</div>
 				<div class="meta">
 					<span class="time">
-						Posted on <?php the_time(); ?> • <?php the_category(","); ?>
+						Posted at <?php the_time(); ?> • Category <?php the_category(","); ?>
 					</span>
 				</div>
 			</article>
