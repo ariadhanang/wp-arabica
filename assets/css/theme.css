@@ -163,9 +163,11 @@ body {
   width: 200%;
   padding: 0.5em 0;
   left: -50%;
-  background: #eee9e1;
+  background: #fff;
   border-radius: 4px;
   z-index: 9000;
+  -webkit-box-shadow: 0 3px 6px #00000022;
+          box-shadow: 0 3px 6px #00000022;
 }
 
 #site-header .menu .menu-item .sub-menu::before {
