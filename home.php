@@ -14,7 +14,7 @@
 					<?php the_post_thumbnail(); ?>
 				</div>
 				<div class="content">
-					<?php the_excerpt(); ?>
+					<?php the_content("Read more..."); ?>
 				</div>
 			</article>
 		<?php endwhile; ?>
