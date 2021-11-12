@@ -10,6 +10,15 @@
 					<?php the_title(); ?>
 				</a>
 			</h2>
+			<div class="meta">
+				<span class="time">
+					Posted at <?php the_time(); ?>
+				</span>
+				•
+				<span class="category">
+					Category <?php the_category(", "); ?>
+				</span>
+			</div>
 			<div class="thumbnail">
 				<?php the_post_thumbnail(); ?>
 			</div>
