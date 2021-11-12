@@ -222,6 +222,11 @@ body {
   margin: 1em 0;
 }
 
+#page-home .posts .meta {
+  margin-top: 1em;
+  opacity: 0.7;
+}
+
 .posts .post {
   margin-bottom: 5em;
 }
