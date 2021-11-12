@@ -204,7 +204,6 @@ body {
 }
 
 #page-home .posts {
-  padding: 0 5vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
