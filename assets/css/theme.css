@@ -223,12 +223,6 @@ body {
   overflow: hidden;
 }
 
-#page-home .posts .post h2 {
-  float: left;
-  margin: 2.4em 1em 1em 0;
-  font-size: 2.4em;
-}
-
 .posts .post {
   margin-bottom: 5em;
 }
