@@ -217,9 +217,7 @@ body {
 }
 
 #page-home .posts .post {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   width: 40vw;
   height: 12vw;
   margin: 0 2.5vw 5vw;
@@ -227,7 +225,8 @@ body {
 }
 
 #page-home .posts .post h2 {
-  width: 100%;
+  float: left;
+  margin: 0 2em 2em 0;
 }
 
 .posts .post {
