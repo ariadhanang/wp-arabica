@@ -17,6 +17,11 @@
 				<div class="content">
 					<?php the_content("Read more..."); ?>
 				</div>
+				<div class="meta">
+					<span class="time">
+						Posted on <?php the_time(); ?> • <?php the_category(","); ?>
+					</span>
+				</div>
 			</article>
 		<?php endwhile; ?>
 		</div>
