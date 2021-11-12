@@ -165,6 +165,7 @@ body {
   left: -50%;
   background: #eee9e1;
   border-radius: 4px;
+  z-index: 9000;
 }
 
 #site-header .menu .menu-item .sub-menu::before {
@@ -214,7 +215,6 @@ body {
 }
 
 #page-home .posts .post {
-  position: relative;
   margin: 0 0 4em;
 }
 
