@@ -267,6 +267,19 @@ body {
   font-size: 2.4em;
 }
 
+.single h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.single blockquote {
+  font-style: italic;
+}
+
+.single blockquote p {
+  margin: 0;
+}
+
 .single .content {
   margin-bottom: 5em;
 }
