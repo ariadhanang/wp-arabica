@@ -219,6 +219,10 @@ body {
   margin: 0 0 4vw;
 }
 
+#page-home .posts .content p {
+  margin: 1em 0;
+}
+
 .posts .post {
   margin-bottom: 5em;
 }
