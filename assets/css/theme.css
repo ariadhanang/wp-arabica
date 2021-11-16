@@ -274,6 +274,11 @@ body {
   font-weight: 600;
 }
 
+.single h4 {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
 .single blockquote {
   font-style: italic;
 }
