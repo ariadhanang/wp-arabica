@@ -79,7 +79,7 @@ th {
 }
 
 body {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "SF Pro Display", "Open Sans", "Helvetica Neue", sans-serif;
   color: #24170C;
 }
 
@@ -190,7 +190,7 @@ body {
 }
 
 #site-header .menu .menu-item .sub-menu a:hover {
-  background: #f2efe9;
+  background: #f9f9f9;
 }
 
 #site-header .menu .menu-item .sub-menu a:active {
@@ -252,7 +252,7 @@ body {
   margin: 2em 0;
   font-size: 1.14em;
   line-height: 1.8;
-  font-family: "Merriweather", "Georgia", serif;
+  font-family: "New York", "Merriweather", "Georgia", serif;
 }
 
 .posts .post .content blockquote {
@@ -288,7 +288,7 @@ body {
 
 .single section {
   padding: 3em 0;
-  border-top: 1px solid #e4ded1;
+  border-top: 1px solid #e6e6e6;
 }
 
 .single section .section-title {
@@ -334,10 +334,10 @@ body {
 }
 
 body {
-  background: #F7F5F1;
+  background: #ffffff;
 }
 
 a {
-  color: #c57834;
+  color: #0099ff;
 }
 /*# sourceMappingURL=theme.css.map */
